@@ -15,6 +15,12 @@ class App extends Component {
         )
     }
 }
-
-
 export default App;
+
+// {this.state.list && this.state.list.length>0 && <ol>
+//     {
+//         this.state.list.map((obj,index)=>{
+//             return (<li key={index}>{obj.fullName}</li>)
+//         })
+//     }
+// </ol>}
